@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: todoapp
-          image: kubekode/react-todo-list-app
+          image: kubekode/react-todo-list-app:latest
           ports:
             - containerPort: 80
